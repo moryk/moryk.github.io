@@ -1,7 +1,7 @@
 $(document).ready(function(){
   //find a way for the program to choose a random number between 1 and 100, save this as a variable
   var arr = []
-while(arr.length < 8){
+while(arr.length < 1){
   var randomnumber=Math.ceil(Math.random()*100)
   var found=false;
   for(var i=0;i<arr.length;i++){
