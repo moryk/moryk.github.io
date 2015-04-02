@@ -1,6 +1,7 @@
 $(document).ready(function(){
   //find a way for the program to choose a random number between 1 and 100, save this as a variable
   var number = Math.floor(Math.random()*100);
+  var guess_count
   //when the player clicks on the 'guess' button
   $('button').on('click', function(){
     //save their guess as a variable
