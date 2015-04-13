@@ -1,13 +1,13 @@
 $(document).ready(function(){
-  var card_array = ["fish", "fish", "turtle", "turtle", "pig", "pig", "dog", "dog", "cat", "cat", "snake", "snake", "bird", "bird", "goat", "goat", "hamster", "hamster", "dragon", "dragon"]
-
+  var card_array = ["fish", "fish", "turtle", "turtle", "pig", "pig", "dog", "dog", "cat", "cat", "snake", "snake", "bird", "bird", "goat", "goat", "hamster", "hamster", "dragon", "dragon"]]
+  //these are the names that will be on the card
   function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex ;
 
-  // While there remain elements to shuffle...
+  // While the cards are shuffling
   while (0 !== currentIndex) {
 
-    // Pick a remaining element...
+    // Pick a number
     randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex -= 1;
 
@@ -21,19 +21,19 @@ $(document).ready(function(){
 }
   var random_deck = shuffle(card_array);
   
-  for(i in random_deck){//builds the cards
+  for(i in random_deck){  //make the cards
     $('#card_holder').append('<div class="card"><p>'+random_deck[i]+'</p></div>');
   }
   var click_count = 0;
   var first_click = 0;
   var second_click = 0;
   $('.card').on('click', function(){
-    if (click_count == 0){ //checks which click we are on
+    if (click_count == 0){ //checks how many clicks we are on 
     	$(this).find('p').css('opacity', 1).addClass('clicked');
       click_count = 1;
       first_click = $(this).find('p').html();
     }
-    else{ //this will run if we are not on the first click
+    else{ //will only work on second clicks
     	$(this).find('p').css('opacity', 1).addClass('clicked');
        click_count = 0;
       second_click = $(this).find('p').html();
