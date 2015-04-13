@@ -37,7 +37,7 @@ $(document).ready(function(){
     	$(this).find('p').css('opacity', 1).addClass('clicked');
        click_count = 0;
       second_click = $(this).find('p').html();
-      if(first_click == second_click){
+      if(first_click === second_click){
       	$('.clicked').css('opacity', '1').removeClass('clicked');
       }
       else{
