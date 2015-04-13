@@ -38,7 +38,7 @@ $(document).ready(function(){
        click_count = 0;
       second_click = $(this).find('p').html();
       if(first_click == second_click){
-      	$('.clicked').css('background-color', 'green').removeClass('clicked');
+      	$('.clicked').css('opacity', '1').removeClass('clicked');
       }
       else{
         setTimeout( function(){$('.clicked').css('opacity', 0).removeClass('clicked');}, 1500 );
