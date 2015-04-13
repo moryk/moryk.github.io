@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var card_array = ["fish", "fish", "turtle", "turtle", "pig", "pig", "dog", "dog", "cat", "cat", "snake", "snake", "bird", "bird", "goat", "goat", "hamster", "hamster", "dragon", "dragon"]]
+  var card_array = ["fish", "fish", "turtle", "turtle", "pig", "pig", "dog", "dog", "cat", "cat", "snake", "snake", "bird", "bird", "goat", "goat", "hamster", "hamster", "dragon", "dragon"]
   //these are the names that will be on the card
   function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex ;
