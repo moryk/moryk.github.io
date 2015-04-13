@@ -33,7 +33,7 @@ $(document).ready(function(){
       click_count = 1;
       first_click = $(this).find('p').html();
     }
-    else{ //will only work on second clicks
+    else{ ///will only work on second clicks
     	$(this).find('p').css('opacity', 1).addClass('clicked');
        click_count = 0;
       second_click = $(this).find('p').html();
