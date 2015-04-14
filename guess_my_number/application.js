@@ -25,6 +25,6 @@ var guesses = 0;
       $('#feedback').append('Go higher!');
     }
       $('input').val("");
-    $(p id="guess_counter").append(guesses +1)
+    $("#guess_counter").empty().append(guesses +1)
   })
 });
