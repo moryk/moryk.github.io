@@ -5,7 +5,7 @@ input, button {
   display:inline-block;
 }
 
-#input_holder {
+#input {
   width: 235px;
   margin: 0 auto;
 }
