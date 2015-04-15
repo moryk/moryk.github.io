@@ -20,11 +20,11 @@ var guesses = 0;
       $('#feedback').append('Guess lower!');
     }
     //otherwise, the user guessed too low...
-    if(guess < chooseNumber){
+    if(guess < chooseNumber){// this decided what the number should be
       //update the 'feedback' paragraph to tell them to guess higher
       $('#feedback').append('Go higher!');
     }
       $('input').val("");
-    $("#guess_counter").empty().append(guesses +1)
+    $("#guess_counter").empty().append(guesses +1) // this increases numbers of guess
   })
 });
