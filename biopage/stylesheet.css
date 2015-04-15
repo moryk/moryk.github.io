@@ -1,1 +1,33 @@
-
+h1 {
+    color: orange;
+    text-align: center;
+    font-size: 49px; 
+}
+body{
+  background-color:#D5E8EF;
+  border-top-width:60px;
+  border-top-style:solid;
+  border-top-color:#E0E0E0;
+  border-bottom-width:60px;
+  border-bottom-style:solid;
+  border-bottom-color:#E0E0E0
+}
+article,aside{
+  font-size:20px;
+  display:inline-block;
+  font-style:italic;
+  padding:70px;
+  border-color:blue;
+  border: 2px dotted;
+  border-radius:200px;
+}
+a{
+  text-decoration: none;
+}
+footer nav{
+  text-align:left;
+}
+footer ul li{
+  display:inline-block;
+  padding:30px;
+}
