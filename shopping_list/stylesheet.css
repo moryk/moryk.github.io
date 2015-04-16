@@ -1,1 +1,10 @@
-
+h1{
+  margin-left: auto;
+  margin-right: auto;
+}
+#number-one{
+  font-style: italic;
+}
+#item-holder{
+  font-style #2: normal;
+}
