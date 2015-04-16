@@ -4,6 +4,6 @@ $(document).ready(function(){
        $('#item-holder').append("<p>"+input+"</p>") // help to save #
   });
   $('#clear').on('click',function(){
-  .empty().append(guesses +1)
+  $('#item-holder').empty()
   });
 });
